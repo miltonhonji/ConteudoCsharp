@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\devMiltonCSharpGithub\\ConsoleApp\\TreinamentoProgramacaoOrientadoAObjeto\\TreinamentoProgramacaoOrientadoAObjeto.csproj": {}
+    "C:\\devMiltonCSharpGithub\\TreinamentoProgramacaoOrientadoAObjeto\\TreinamentoProgramacaoOrientadoAObjeto.csproj": {}
   },
   "projects": {
-    "C:\\devMiltonCSharpGithub\\ConsoleApp\\TreinamentoProgramacaoOrientadoAObjeto\\TreinamentoProgramacaoOrientadoAObjeto.csproj": {
+    "C:\\devMiltonCSharpGithub\\TreinamentoProgramacaoOrientadoAObjeto\\TreinamentoProgramacaoOrientadoAObjeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\devMiltonCSharpGithub\\ConsoleApp\\TreinamentoProgramacaoOrientadoAObjeto\\TreinamentoProgramacaoOrientadoAObjeto.csproj",
+        "projectUniqueName": "C:\\devMiltonCSharpGithub\\TreinamentoProgramacaoOrientadoAObjeto\\TreinamentoProgramacaoOrientadoAObjeto.csproj",
         "projectName": "TreinamentoProgramacaoOrientadoAObjeto",
-        "projectPath": "C:\\devMiltonCSharpGithub\\ConsoleApp\\TreinamentoProgramacaoOrientadoAObjeto\\TreinamentoProgramacaoOrientadoAObjeto.csproj",
+        "projectPath": "C:\\devMiltonCSharpGithub\\TreinamentoProgramacaoOrientadoAObjeto\\TreinamentoProgramacaoOrientadoAObjeto.csproj",
         "packagesPath": "C:\\Users\\honji\\.nuget\\packages\\",
-        "outputPath": "C:\\devMiltonCSharpGithub\\ConsoleApp\\TreinamentoProgramacaoOrientadoAObjeto\\obj\\",
+        "outputPath": "C:\\devMiltonCSharpGithub\\TreinamentoProgramacaoOrientadoAObjeto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\honji\\AppData\\Roaming\\NuGet\\NuGet.Config",

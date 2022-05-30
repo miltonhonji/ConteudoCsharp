@@ -1,11 +1,12 @@
 using TreinamentoProgramacaoOrientadoAObjeto.Classe;
 using System;
+using System.Globalization;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
 {
     public class ExemplosMetodos
     {
-        //public Decimal valor;
+        public decimal valor;
 
         public void Execucao()
         {
@@ -27,15 +28,14 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
 
             switch (opcaoDeposito)
             {
-                case 1: 
-                    ObterInformacoes();
-                    //Depositar(valor); 
-                break;
+                case 1: Depositar(valor); break;
             }                
         }
 
-        public void ObterInformacoesCliente()
+        public void Depositar(decimal valorDepositado)
         {
+            Console.Clear();
+
             try
             {
                 Classe.Cliente cliente = new Classe.Cliente();
@@ -45,9 +45,19 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
                 string nomeDoCliente = Console.ReadLine();
 
                 cliente.Nome = nomeDoCliente;
-                conta.Saldo = "1200m";
+                conta.Saldo = 1200m;
 
-                Console.WriteLine($"Seja bem vindo  { cliente.Nome } ");
+                Console.WriteLine($"Seja bem vindo { cliente.Nome }.");
+                Console.WriteLine($"Seu saldo atual é de: { conta.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))} \r\n");
+
+                Console.WriteLine("Insira o valor para depósito");
+                valorDigitado = decimal.Parse(Console.ReadLine());
+
+                conta.Saldo += valorDepositado;
+
+                Console.WriteLine($"Você depositou: { valorDepositado.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) }, o seu saldo agora é { conta.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } ");
+
+                //return valorDigitado;
             }
             catch(ArgumentNullException ex)
             {
@@ -62,13 +72,5 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
                  Console.WriteLine("Ops, algo deu errado!");
             }
         }
-
-        /*public Decimal Depositar(Decimal valorDigitado)
-        {
-            Console.WriteLine("Insira o valor para depósito");
-            valorDigitado = decimal.Parse(Console.ReadLine());
-
-            retrun valorDigitado;
-        }*/
     }
 }

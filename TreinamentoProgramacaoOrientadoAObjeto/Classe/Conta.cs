@@ -7,6 +7,6 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Classe
         public int Agencia { get; set; }
         public string Banco { get; set; }
         public int NumeroDaConta { get; set; }
-        public Decimal Saldo { get; set; }                         
+        public decimal Saldo { get; set; }                         
     }
 }
