@@ -1,0 +1,15 @@
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\obj\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.csproj.AssemblyReference.cache
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\obj\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\obj\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.AssemblyInfoInputs.cache
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\obj\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.AssemblyInfo.cs
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\obj\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.csproj.CoreCompileInputs.cache
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\bin\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.exe
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\bin\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.deps.json
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\bin\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.runtimeconfig.json
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\bin\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.dll
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\bin\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.pdb
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\obj\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.dll
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\obj\Debug\net6.0\refint\TreinamentoProgramacaoOrientadoAObjeto.dll
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\obj\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.pdb
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\obj\Debug\net6.0\TreinamentoProgramacaoOrientadoAObjeto.genruntimeconfig.cache
+C:\devMilton\TreinamentoProgramacaoOrientadoAObjeto\obj\Debug\net6.0\ref\TreinamentoProgramacaoOrientadoAObjeto.dll
