@@ -1,6 +1,6 @@
-using TreinamentoProgramacaoOrientadoAObjeto.Classe;
 using System;
 using System.Globalization;
+using TreinamentoProgramacaoOrientadoAObjeto.Classe;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
 {
@@ -29,47 +29,79 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
             switch (opcaoDeposito)
             {
                 case 1: Depositar(valor); break;
+                case 2: Sacar(valor); break;
             }                
         }
 
         public void Depositar(decimal valorDepositado)
         {
-            Console.Clear();
-
+            Classe.Cliente cliente = new Classe.Cliente();
+            Classe.Conta conta = new Classe.Conta();
             try
             {
-                Classe.Cliente cliente = new Classe.Cliente();
-                Classe.Conta conta = new Classe.Conta();
-
+                Console.Clear();
+                Console.WriteLine($"--- Você está na Tela de Depósito --- \r\n");
                 Console.WriteLine("Insira o seu nome: ");
-                string nomeDoCliente = Console.ReadLine();
+                string nomeDoCliente = Console.ReadLine() + "\r\n";
 
                 cliente.Nome = nomeDoCliente;
                 conta.Saldo = 1200m;
 
-                Console.WriteLine($"Seja bem vindo { cliente.Nome }.");
+                Console.WriteLine($"Seja bem vindo { cliente.Nome }");
                 Console.WriteLine($"Seu saldo atual é de: { conta.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))} \r\n");
 
                 Console.WriteLine("Insira o valor para depósito");
-                valorDigitado = decimal.Parse(Console.ReadLine());
+                valorDepositado = decimal.Parse(Console.ReadLine());
 
                 conta.Saldo += valorDepositado;
 
-                Console.WriteLine($"Você depositou: { valorDepositado.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) }, o seu saldo agora é { conta.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } ");
-
-                //return valorDigitado;
-            }
-            catch(ArgumentNullException ex)
-            {
-                Console.WriteLine(ex.InnerException);
-                 Console.WriteLine(ex.Message);
-                 Console.WriteLine("Não há nada escrito nos campos!");
+                Console.WriteLine($"Você depositou: { valorDepositado.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } reais, agora o seu saldo é de: { conta.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } reais ");
             }
             catch (Exception ex)
             {
                  Console.WriteLine(ex.InnerException);
                  Console.WriteLine(ex.Message);
                  Console.WriteLine("Ops, algo deu errado!");
+            }
+        }
+
+        public void Sacar(decimal valorSacado)
+        {
+            Classe.Cliente cliente = new Classe.Cliente();
+            Classe.Conta conta = new Classe.Conta();
+
+            try
+            {
+                Console.Clear();
+                Console.WriteLine($"--- Você está na Tela de Saque --- \r\n");
+                
+                Console.WriteLine("Insira o seu nome: ");
+                string nomeDoCliente = Console.ReadLine() + "\r\n";
+
+                cliente.Nome = nomeDoCliente;
+                conta.Saldo = 1200m;
+
+                Console.WriteLine($"Seja bem vindo { cliente.Nome }");
+                Console.WriteLine($"Seu saldo atual é de: { conta.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))} \r\n");
+
+                Console.WriteLine("Insira um valor para saque: ");
+                valorSacado = decimal.Parse(Console.ReadLine());
+
+                if(valorSacado < conta.Saldo)
+                {
+                    conta.Saldo -= valorSacado;
+                    Console.WriteLine($"O valor sacado foi de { valorSacado.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } reais, agora o seu saldo é de { conta.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } reais ");
+                }
+                else if (valorSacado > conta.Saldo)
+                {
+                    Console.WriteLine("Não possível efetuar o método.");
+                }
+                    
+                    
+            }
+            catch (System.Exception ex)
+            {
+                 // TODO
             }
         }
     }
