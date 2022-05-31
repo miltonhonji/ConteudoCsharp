@@ -16,6 +16,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
 
         public void Menu()
         {
+            Classe.Conta conta = new Classe.Conta();
             Console.Clear();
             Console.WriteLine("Bem vindo aos banco dos Devs");
             Console.WriteLine("1 - Depositar");
@@ -30,6 +31,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
             {
                 case 1: Depositar(valor); break;
                 case 2: Sacar(valor); break;
+                case 3: Transferir(valor, conta); break;
             }                
         }
 
@@ -95,14 +97,37 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
                 else if (valorSacado > conta.Saldo)
                 {
                     Console.WriteLine("Não possível efetuar o método.");
-                }
-                    
-                    
+                }                            
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
-                 // TODO
+                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Ops, algo deu errado!");
             }
+        }
+
+        public void Transferir(decimal valorTransferir, Conta contaDestino)
+        {
+            Classe.Conta contaPrincipal = new Classe.Conta();
+            Console.Clear();
+            Console.WriteLine(" --- Transferir dinheiro para outra conta --- ");
+            Console.WriteLine();
+            Console.WriteLine("Insira um valor: ");
+            valorTransferir = int.Parse(Console.ReadLine());
+            contaPrincipal.Saldo = 1200m;
+
+            if(valorTransferir > contaPrincipal.Saldo)
+            {
+                Console.WriteLine("Não foi possível efetuar a transferência.");
+            }
+            else 
+            {
+                contaPrincipal.Saldo -= valorTransferir;
+                Console.WriteLine($"O valor da conta Principal agora está com { contaPrincipal.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } reais.");
+                contaDestino.Saldo += valorTransferir;
+                Console.WriteLine($"O valor da conta Destino agora está com { contaDestino.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } reais.");
+            }          
         }
     }
 }
