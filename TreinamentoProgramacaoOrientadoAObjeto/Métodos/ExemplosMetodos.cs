@@ -6,9 +6,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
 {
     public class ExemplosMetodos
     {
-        public decimal valor;
-
-        public void Execucao()
+      public void Execucao()
         {
             Console.Clear();
             Menu();
@@ -16,7 +14,9 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
 
         public void Menu()
         {
+            decimal valor = 0m;
             Classe.Conta conta = new Classe.Conta();
+
             Console.Clear();
             Console.WriteLine("Bem vindo aos banco dos Devs");
             Console.WriteLine("1 - Depositar");
@@ -32,6 +32,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
                 case 1: Depositar(valor); break;
                 case 2: Sacar(valor); break;
                 case 3: Transferir(valor, conta); break;
+                case 4: Environment.Exit(0); break;
             }                
         }
 
