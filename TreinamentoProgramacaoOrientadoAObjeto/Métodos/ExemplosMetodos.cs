@@ -6,7 +6,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
 {
     public class ExemplosMetodos
     {
-      public void Execucao()
+        public void Execucao()
         {
             Console.Clear();
             Menu();
@@ -18,16 +18,16 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
             Classe.Conta conta = new Classe.Conta();
 
             Console.Clear();
-            Console.WriteLine("Bem vindo aos banco dos Devs");
+            Console.WriteLine("Bem vindo ao Banco dos Devs");
             Console.WriteLine("1 - Depositar");
             Console.WriteLine("2 - Sacar");
             Console.WriteLine("3 - Transferir");
             Console.WriteLine("4 - Sair"); 
 
-            Console.WriteLine("O que você deseja fazer: ");
-            int opcaoDeposito = int.Parse(Console.ReadLine());
+            Console.WriteLine("O que você deseja fazer?: ");
+            int opcaoTipoOperacao = int.Parse(Console.ReadLine());
 
-            switch (opcaoDeposito)
+            switch (opcaoTipoOperacao)
             {
                 case 1: Depositar(valor); break;
                 case 2: Sacar(valor); break;
@@ -40,6 +40,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
         {
             Classe.Cliente cliente = new Classe.Cliente();
             Classe.Conta conta = new Classe.Conta();
+
             try
             {
                 Console.Clear();
@@ -53,7 +54,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
                 Console.WriteLine($"Seja bem vindo { cliente.Nome }");
                 Console.WriteLine($"Seu saldo atual é de: { conta.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))} \r\n");
 
-                Console.WriteLine("Insira o valor para depósito");
+                Console.WriteLine("Insira o valor para depósito: ");
                 valorDepositado = decimal.Parse(Console.ReadLine());
 
                 conta.Saldo += valorDepositado;
