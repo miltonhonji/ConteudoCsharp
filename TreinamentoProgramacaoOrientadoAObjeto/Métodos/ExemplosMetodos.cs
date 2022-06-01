@@ -98,7 +98,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
                 }
                 else if (valorSacado > conta.Saldo)
                 {
-                    Console.WriteLine("Não possível efetuar o método.");
+                    Console.WriteLine("Não foi possível efetuar o método.");
                 }                            
             }
             catch (Exception ex)
@@ -126,9 +126,9 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
             else 
             {
                 contaPrincipal.Saldo -= valorTransferir;
-                Console.WriteLine($"O valor da conta Principal agora está com { contaPrincipal.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } reais.");
+                Console.WriteLine($"O valor da Conta Principal agora está com { contaPrincipal.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } reais.");
                 contaDestino.Saldo += valorTransferir;
-                Console.WriteLine($"O valor da conta Destino agora está com { contaDestino.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } reais.");
+                Console.WriteLine($"O valor da Conta Destino agora está com { contaDestino.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) } reais.");
             }          
         }
     }
