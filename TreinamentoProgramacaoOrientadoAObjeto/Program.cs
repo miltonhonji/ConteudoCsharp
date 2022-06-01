@@ -1,4 +1,5 @@
-﻿using TreinamentoProgramacaoOrientadoAObjeto.Objetos;
+﻿using Internal;
+using TreinamentoProgramacaoOrientadoAObjeto.Objetos;
 using TreinamentoProgramacaoOrientadoAObjeto.Métodos;
 using TreinamentoProgramacaoOrientadoAObjeto.Encapsulamento;
 using TreinamentoProgramacaoOrientadoAObjeto.Herança;
@@ -24,7 +25,8 @@ namespace TreinamentoProgramacaoOrientadoAObjeto
             Console.WriteLine("2 - Encapsulamento");
             Console.WriteLine("3 - Herança - Interface e Implementação");
             Console.WriteLine("4 - Polimorfismo");
-            Console.WriteLine("5 - Sair da Aplicação");
+            Console.WriteLine("5 - Métodos - Cliente/Produtos");
+            Console.WriteLine("6 - Sair da Aplicação");
             Console.WriteLine();
             
             Console.WriteLine("Escolha uma opção: ");
