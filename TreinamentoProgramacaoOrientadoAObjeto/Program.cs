@@ -1,5 +1,4 @@
-﻿using Internal;
-using TreinamentoProgramacaoOrientadoAObjeto.Objetos;
+﻿using TreinamentoProgramacaoOrientadoAObjeto.Objetos;
 using TreinamentoProgramacaoOrientadoAObjeto.Métodos;
 using TreinamentoProgramacaoOrientadoAObjeto.Encapsulamento;
 using TreinamentoProgramacaoOrientadoAObjeto.Herança;
@@ -39,7 +38,8 @@ namespace TreinamentoProgramacaoOrientadoAObjeto
                 case 2: new Encapsulamento.ExemplosEncapsulamento().Execucao(); break;
                 case 3: new Herança.ExemplosHeranca().Execucao(); break;
                 case 4: new Polimorfismo.ExemplosPolimorfismo().Execucao(); break;
-                case 5: Environment.Exit(0); break;
+                case 5: new Métodos.ExemplosMetodosClienteProduto().Execucao(); break;
+                case 6: Environment.Exit(0); break;
                 //default:
                     //break;
             }
