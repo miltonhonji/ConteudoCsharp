@@ -36,10 +36,10 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
 
             Console.WriteLine(" --- Cliente ---");
             Console.WriteLine($"Nome: { cliente.Nome } ");
-            Console.WriteLine($"Idade: {cliente.Idade } ");
-            Console.WriteLine($"Telefone: {cliente.Telefone } ");
+            Console.WriteLine($"Idade: { cliente.Idade } ");
+            Console.WriteLine($"Telefone: { cliente.Telefone } ");
             Console.WriteLine($"Email: { cliente.Email } ");
-            Console.WriteLine($"Ativo?: {cliente.Ativo } ");
+            Console.WriteLine($"Ativo?: { cliente.Ativo } ");
 
             Console.WriteLine();
 
@@ -64,7 +64,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
         {
             if(cliente != null)
             {
-                Console.WriteLine("Temos um cliente");
+                Console.WriteLine($"Temos um cliente com o nome: {cliente.Nome}");
             }
             else
             {
