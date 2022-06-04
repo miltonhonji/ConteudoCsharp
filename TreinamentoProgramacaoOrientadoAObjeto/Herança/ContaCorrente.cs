@@ -12,8 +12,24 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 
     public class ContaCorrente : Conta
     {
+        public ETipoConta TipoConta { get; set; }
+        public int CodigoBanco {get; set;}
 
     }
+
+    public class ContaPoupanca : Conta
+    {
+        public ETipoConta TipoConta { get; set;}
+        public DateTime DataDePoupar { get; set; }
+    }
+
+    public class ContaInvestimento : Conta
+    {
+        public string TipoInvestidor { get; set; }
+        public string TipoInvestimento { get; set; }
+        public ETipoConta TipoConta { get; set; }
+    }
+
     public enum ETipoConta
     {
         ContaCorrente = 1,
