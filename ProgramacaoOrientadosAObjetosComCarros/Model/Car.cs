@@ -15,6 +15,15 @@ namespace ProgramacaoOrientadosAObjetosComCarros.Model
         public decimal WidthCar { get; set; }
         public decimal HeightCar { get;set; }
         public decimal EngineCapacity { get; set; }
-        public decimal PrizeCar { get; set; }       
+        public EEngineType EngineType { get;set; }
+        public decimal PrizeCar { get; set; }
+        public bool AcquiredCar { get; set; }             
     }
+
+    public enum EEngineType
+    {
+        Turbo = 1,
+        Aspirated
+    }
+
 }
