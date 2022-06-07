@@ -1,3 +1,5 @@
 {
-  "recommendations": ["jchannon.csharpextensions"]
+  "recommendations": [
+    "jchannon.csharpextensions"
+  ]
 }

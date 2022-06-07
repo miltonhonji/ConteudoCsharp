@@ -14,7 +14,6 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
     {
         public ETipoConta TipoConta { get; set; }
         public int CodigoBanco {get; set;}
-
     }
 
     public class ContaPoupanca : Conta
