@@ -3,7 +3,7 @@ using TreinamentoProgramacaoOrientadoAObjeto.Classe;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 {
-    public class ExemplosHeranca
+    public class ExemplosHeranca |:
     {
         public void Execucao()
         {

@@ -3,7 +3,7 @@ using TreinamentoProgramacaoOrientadoAObjeto.Herança.Interface;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 {
-    public class ContaCorrenteRepository : IContaCorrenteRepository
+    public class ContaInvestimentoRepository : IContaCorrenteRepository
     {
         public void Save(ContaCorrente contaCorrente)
         {
@@ -20,4 +20,4 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
             throw new NotImplementedException();
         }
     }
-} 
+}

@@ -5,5 +5,11 @@
         ".sass",
         ".less",
         ".css"
-    ]
+    ],
+    "omnisharp.useModernNet": true,
+    "omnisharp.projectLoadTimeout": 60,
+    "omnisharp.dotnetPath": "",
+    "omnisharp.enableAsyncCompletion": true,
+    "omnisharp.enableMsBuildLoadProjectsOnDemand": true,
+    "omnisharp.waitForDebugger": false
 }
