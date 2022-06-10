@@ -20,5 +20,8 @@
     "tslint.rulesDirectory": "node_modules/tslint-microsoft-contrib",
     "typescript.tsdk": "./node_modules/typescript/lib",
     "mocha.enabled": true,
-    "omnisharp.autoStart": false
+    "omnisharp.autoStart": false,
+    "omnisharp.projectLoadTimeout": 60,
+    "omnisharp.useModernNet": false,
+    "omnisharp.enableMsBuildLoadProjectsOnDemand": false
 }

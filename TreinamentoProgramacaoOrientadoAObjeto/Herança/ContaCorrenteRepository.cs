@@ -3,21 +3,19 @@ using TreinamentoProgramacaoOrientadoAObjeto.Herança.Interface;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 {
-    public class ContaCorrenteRepository : IContaCorrenteRepository
+    public class ContaCorrenteRepository
     {
-        public void Save(ContaCorrente contaCorrente)
+        //Primeira Opção seria
+        private readonly IContaCorrenteRepository _contaCorrenteRepository;
+
+        public ContaCorrenteRepository(IContaCorrenteRepository contaCorrenteRepository)
         {
-            throw new NotImplementedException();
+            _contaCorrenteRepository = contaCorrenteRepository;
         }
 
-        public void Update(int id)
+        public void Salvar(ContaCorrente contaCorrente)
         {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(int id)
-        {
-            throw new NotImplementedException();
+            _contaCorrenteRepository.Save(contaCorrente);
         }
     }
 } 

@@ -19,5 +19,10 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
         {
             throw new NotImplementedException();
         }
+
+        public void RegastarTitulo(ContaInvestimento contaInvestimento)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -8,5 +8,6 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança.Interface
          void Save(ContaCorrente contaCorrente);
          void Update(int id);
          void Delete(int id);
+         void RegastarTitulo(ContaInvestimento contaInvestimento);
     }
 }
