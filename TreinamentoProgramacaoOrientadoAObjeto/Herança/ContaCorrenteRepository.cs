@@ -17,5 +17,16 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
         {
             _contaCorrenteRepository.Save(contaCorrente);
         }
+
+        public void Atualizar(int id)
+        {
+            _contaCorrenteRepository.Update(id);
+        }
+
+        public void Apagar(int id)
+        {
+            _contaCorrenteRepository.Delete(id);
+        }
+
     }
 } 
