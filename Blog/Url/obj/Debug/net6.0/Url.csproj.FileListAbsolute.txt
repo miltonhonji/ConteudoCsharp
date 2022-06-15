@@ -1,0 +1,12 @@
+C:\devMiltonCSharpGithub\Blog\URL\bin\Debug\net6.0\Url.deps.json
+C:\devMiltonCSharpGithub\Blog\URL\bin\Debug\net6.0\Url.dll
+C:\devMiltonCSharpGithub\Blog\URL\bin\Debug\net6.0\Url.pdb
+C:\devMiltonCSharpGithub\Blog\URL\obj\Debug\net6.0\Url.csproj.AssemblyReference.cache
+C:\devMiltonCSharpGithub\Blog\URL\obj\Debug\net6.0\Url.GeneratedMSBuildEditorConfig.editorconfig
+C:\devMiltonCSharpGithub\Blog\URL\obj\Debug\net6.0\Url.AssemblyInfoInputs.cache
+C:\devMiltonCSharpGithub\Blog\URL\obj\Debug\net6.0\Url.AssemblyInfo.cs
+C:\devMiltonCSharpGithub\Blog\URL\obj\Debug\net6.0\Url.csproj.CoreCompileInputs.cache
+C:\devMiltonCSharpGithub\Blog\URL\obj\Debug\net6.0\Url.dll
+C:\devMiltonCSharpGithub\Blog\URL\obj\Debug\net6.0\refint\Url.dll
+C:\devMiltonCSharpGithub\Blog\URL\obj\Debug\net6.0\Url.pdb
+C:\devMiltonCSharpGithub\Blog\URL\obj\Debug\net6.0\ref\Url.dll
