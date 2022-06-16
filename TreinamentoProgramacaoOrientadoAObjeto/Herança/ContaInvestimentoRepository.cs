@@ -1,5 +1,4 @@
 using System;
-using TreinamentoProgramacaoOrientadoAObjeto.Herança.Classe;
 using TreinamentoProgramacaoOrientadoAObjeto.Herança.Interface;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
