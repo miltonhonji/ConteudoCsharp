@@ -4,6 +4,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 {
     public class Conta
     {
+        public int IdAgencia { get; set; }
         public int Agencia { get; set; }
         public int NumeroConta { get;set; }
         public double Saldo { get; set; }

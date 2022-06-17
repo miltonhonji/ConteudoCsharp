@@ -1,5 +1,4 @@
 using System;
-using TreinamentoProgramacaoOrientadoAObjeto.Classe.ContaCorrente;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Herança.Interface
 {

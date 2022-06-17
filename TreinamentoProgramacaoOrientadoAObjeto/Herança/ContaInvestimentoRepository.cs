@@ -32,7 +32,8 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 
         public void Save(ContaInvestimento entity)
         {
-            throw new NotImplementedException();
+            
+            //throw new NotImplementedException();
         }
 
         public void Update(int id)

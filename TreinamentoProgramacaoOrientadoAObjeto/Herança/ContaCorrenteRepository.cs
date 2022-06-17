@@ -22,7 +22,25 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 
         public void Save(ContaCorrente entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Console.Clear();
+                Console.WriteLine("----Aqui iremos abrir a sua conta");
+            
+                Console.WriteLine("Digite o número da agência: ");
+                int numeroAgencia = int.Parse(Console.ReadLine());
+
+                
+            
+                entity.Agencia = numeroAgencia;
+
+                Console.WriteLine($"O número da agência é: { entity.Agencia }.");
+            }
+            catch (System.Exception ex)
+            {
+                 // TODO
+            }
+
         }
 
         public void Update(int id)

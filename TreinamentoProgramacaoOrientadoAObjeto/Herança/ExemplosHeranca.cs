@@ -1,5 +1,4 @@
 using System;
-using TreinamentoProgramacaoOrientadoAObjeto.Classe;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 {
@@ -8,7 +7,23 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
         public void Execucao()
         {
             Console.Clear();
-            Console.WriteLine("Aqui será o aprendizado de Herança");
+            var contaCorrenteRepository = new ContaCorrenteRepository();
+            var contaCorrente = new ContaCorrente();
+
+            try
+            {
+                Console.WriteLine("Seja bem vindo ao banco XPTO");
+                Console.WriteLine();
+
+                Console.WriteLine("Escolha um tipo de serviço desejado: ");
+                Console.WriteLine();
+
+                contaCorrenteRepository.Save(contaCorrente);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
