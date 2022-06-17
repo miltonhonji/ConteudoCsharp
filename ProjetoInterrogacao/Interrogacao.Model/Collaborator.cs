@@ -7,6 +7,7 @@ namespace ProjetoInterrogacao.Interrogacao.Model
         public string CustormerOffice { get; set; }
         public EAccessType AccessType { get; set; }
         public string EmployeeTraining { get; set; }
+        public string Department { get; set; }        
     }
 
     public enum EAccessType
