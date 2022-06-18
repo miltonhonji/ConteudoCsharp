@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using TreinamentoProgramacaoOrientadoAObjeto.Herança.Interface;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
@@ -28,17 +29,25 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 Console.WriteLine("----Aqui iremos abrir a sua conta");
             
                 Console.WriteLine("Digite o número da agência: ");
-                int numeroAgencia = int.Parse(Console.ReadLine());
+                int numeroDaAgencia = int.Parse(Console.ReadLine());
 
-                
+                Console.WriteLine("Digite o número da conta: ");
+                int numeroDaConta = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Digite o dinheiro que você quer depositar: ");
+                double saldo = double.Parse(Console.ReadLine());
             
-                entity.Agencia = numeroAgencia;
+                entity.Agencia = numeroDaAgencia;
+                entity.NumeroConta = numeroDaConta;
+                entity.Saldo = saldo;
 
-                Console.WriteLine($"O número da agência é: { entity.Agencia }.");
+                Console.WriteLine($"O número da agência e de sua conta é : { entity.Agencia }-{ entity.NumeroConta }.");
+                Console.WriteLine($"Seu saldo é de: {entity.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) }.");
+                
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
-                 // TODO
+                Console.WriteLine(ex.Message);
             }
 
         }
