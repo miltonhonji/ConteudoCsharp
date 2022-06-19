@@ -25,14 +25,11 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 Console.WriteLine("3 - Conta Investimento");
                 int tipoConta = int.Parse(Console.ReadLine());
 
-                /*switch (tipoConta)
+                switch (tipoConta)
                 {
                     case 1: contaCorrenteRepository.Save(contaCorrente); break;
-                    default:
-                        break;
-                }*/
+                }
                       
-                //contaCorrenteRepository.Save(contaCorrente);
             }
             catch(Exception ex)
             {

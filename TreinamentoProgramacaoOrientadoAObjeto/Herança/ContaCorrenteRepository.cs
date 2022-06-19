@@ -28,7 +28,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 Console.Clear();
                 
                 entity.Agencia = 1803;
-                entity.NumeroConta = 110786-21;
+                entity.NumeroConta = 110786;
 
                 Console.WriteLine("--- Vamos abrir a sua conta ? ---");        
 
@@ -44,7 +44,6 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
             {
                 Console.WriteLine(ex.Message);
             }
-
         }
 
         public void Update(int id)
