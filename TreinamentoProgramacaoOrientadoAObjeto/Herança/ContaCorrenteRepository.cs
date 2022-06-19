@@ -26,29 +26,19 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
             try
             {
                 Console.Clear();
-                Console.WriteLine("--- Vamos abrir a sua conta ? ---");
-            
-                Console.WriteLine("Digite o número da agência: ");
-                int numeroDaAgencia = int.Parse(Console.ReadLine());
+                
+                entity.Agencia = 1803;
+                entity.NumeroConta = 110786-21;
 
-                Console.WriteLine("Digite o número da conta: ");
-                int numeroDaConta = int.Parse(Console.ReadLine());
+                Console.WriteLine("--- Vamos abrir a sua conta ? ---");        
 
                 Console.WriteLine("Digite o dinheiro que você quer depositar: ");
                 double saldo = double.Parse(Console.ReadLine());
-
-                Console.WriteLine("Digite o nome da instituição: ");
-                string banco = Console.ReadLine();
-            
-                entity.Agencia = numeroDaAgencia;
-                entity.NumeroConta = numeroDaConta;
+                            
                 entity.Saldo = saldo;
-                entity.Banco = banco;
 
-                Console.WriteLine($"O número da agência e de sua conta é : { entity.Agencia }-{ entity.NumeroConta }.");
-                Console.WriteLine($"Seu saldo é de: {entity.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) }.");
-                Console.WriteLine($"Banco: { entity.Banco }.");
-                
+                Console.WriteLine($"A sua nova conta é: { entity.Agencia } - { entity.NumeroConta }.");
+                Console.WriteLine($"Agora o seu saldo é de: { entity.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) }.");                
             }
             catch (Exception ex)
             {
