@@ -6,6 +6,7 @@ namespace ProjetoInterrogacao.Interrogacao.Interface
     {
         void Save(T entity);
         void Delete(int id);
-        void Update(int id);         
+        void Update(int id);
+        List<TEntity> GetData();         
     }
 }

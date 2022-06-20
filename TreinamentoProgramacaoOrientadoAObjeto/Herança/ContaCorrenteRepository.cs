@@ -23,6 +23,8 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 
         public void Save(ContaCorrente entity)
         {
+            ContaCorrente contaDestino = new ContaCorrente();
+            
             try
             {
                 Console.Clear();
@@ -30,14 +32,11 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 entity.Agencia = 1803;
                 entity.NumeroConta = 110786;
 
-                Console.WriteLine("--- Vamos abrir a sua conta ? ---");        
-
                 Console.WriteLine("Digite o dinheiro que você quer depositar: ");
                 double saldo = double.Parse(Console.ReadLine());
                             
                 entity.Saldo = saldo;
 
-                Console.WriteLine($"A sua nova conta é: { entity.Agencia } - { entity.NumeroConta }.");
                 Console.WriteLine($"Agora o seu saldo é de: { entity.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) }.");                
             }
             catch (Exception ex)
