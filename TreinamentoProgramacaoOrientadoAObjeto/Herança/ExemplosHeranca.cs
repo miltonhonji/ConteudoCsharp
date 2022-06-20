@@ -20,10 +20,10 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 
                 Console.WriteLine("Escolha um tipo de serviço desejado: ");
                 Console.WriteLine();
-                Console.WriteLine("1 - Conta Corrente");
+                /*Console.WriteLine("1 - Conta Corrente");
                 Console.WriteLine("2 - Conta Poupança");
                 Console.WriteLine("3 - Conta Investimento");
-                int tipoConta = int.Parse(Console.ReadLine());
+                int tipoConta = int.Parse(Console.ReadLine());*/
 
                 switch (tipoConta)
                 {
