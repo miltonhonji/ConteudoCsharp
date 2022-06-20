@@ -46,8 +46,6 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 Console.WriteLine("Digite o número da conta de destino: ");
                 int numeroContaDestino = int.Parse(Console.ReadLine());
                 
-
-
                 //Console.WriteLine($"Agora o seu saldo é de: { entity.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) }.");              
             }
             catch (Exception ex)
