@@ -8,6 +8,8 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
         public int NumeroConta { get;set; }
         public double Saldo { get; set; }
         public string Banco { get; set;}
+        public string Nome { get; set; }
+        public string Documento { get;set; }
     }
 
     public class ContaCorrente : Conta
