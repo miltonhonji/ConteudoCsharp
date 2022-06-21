@@ -2,7 +2,7 @@ using System;
 
 namespace Ecommerce.Herança
 {
-    public class ProdutoService
+    public class ProdutoService : IBaseService<Produto>
     {
         
     }
