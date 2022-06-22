@@ -19,7 +19,7 @@ namespace Ecommerce.Herança
             throw new NotImplementedException();
         }
 
-        public Lis<Pedido> ObterTodos()
+        public List<Pedido> ObterTodos()
         {
             throw new NotImplementedException();
         }

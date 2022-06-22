@@ -63,9 +63,9 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Métodos
             }
             catch (Exception ex)
             {
-                 Console.WriteLine(ex.InnerException);
-                 Console.WriteLine(ex.Message);
-                 Console.WriteLine("Ops, algo deu errado!");
+                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Ops, algo deu errado!");
             }
         }
 

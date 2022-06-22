@@ -5,11 +5,11 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
     public class Conta
     {
         public int Agencia { get; set; }
-        public int NumeroConta { get;set; }
+        public string NumeroConta { get; set; }
         public double Saldo { get; set; }
         public string Banco { get; set;}
         public string Nome { get; set; }
-        public string Documento { get;set; }
+        public string Cpf { get;set; }
     }
 
     public class ContaCorrente : Conta

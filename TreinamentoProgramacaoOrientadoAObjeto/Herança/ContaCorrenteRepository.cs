@@ -11,6 +11,11 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
             throw new NotImplementedException();
         }
 
+        public void Depositar(ContaCorrente contaCorrente)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<ContaCorrente> ObterExtratoConta()
         {
             throw new NotImplementedException();
@@ -23,41 +28,38 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 
         public void Save(ContaCorrente entity)
         {
-            var contaDestino = new ContaCorrente();
-            contaDestino.Nome = "Lucas Moura";
-            contaDestino.Documento = "555.555.111-11";
-
             try
-            {
-                Console.Clear();
-                
-                entity.Nome = "Milton Honji";
-                entity.Documento = "111.111.111-86";
-                entity.Agencia = 1803;
-                entity.NumeroConta = 110786;
-                entity.Saldo = 16000f;
+            {                
+                entity.Agencia = 2206;
+                entity.NumeroConta = "180386-6";
+                entity.Banco = "Banco dos Devs";
+                entity.CodigoBanco = 17;
 
-                Console.WriteLine("Digite o dinheiro que você quer depositar: ");
-                double saldo = double.Parse(Console.ReadLine());
-                            
-                entity.Saldo -= saldo;
-                Console.Clear();  
-
-                Console.WriteLine("--- Dados do Cliente que irá receber: ---");
+                Console.Clear();            
+                Console.WriteLine("--- Banco dos Dev's - Vamos abrir a sua conta? ---");
                 Console.WriteLine();
-                
-                Console.WriteLine("Digite o número da Agência: ");
-                int numeroDaAgencia = int.Parse(Console.ReadLine());
-                
-                Console.WriteLine("Digite o número da conta de destino: ");
-                int numeroContaDestino = int.Parse(Console.ReadLine());
-                
-                Console.ReadKey();
-                
+                Console.WriteLine("Insira o seu nome: ");
+                string nome = Console.ReadLine();
+            
+                Console.WriteLine("Insira o seu Cpf: ");
+                string cpf = Console.ReadLine();
+
+                Console.WriteLine("Por fim, deseja depositar dinheiro na conta: ");
+                double saldo = double.Parse(Console.ReadLine());
+
+                entity.Nome = nome;
+                entity.Cpf = cpf;
+                entity.Saldo = saldo;
+
                 Console.Clear();
-                
-                //Console.WriteLine("")
-                //Console.WriteLine($"Agora o seu saldo é de: { entity.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")) }.");              
+                Console.WriteLine("Cadastro efetuado com sucesso!");
+                Console.WriteLine();
+                Console.WriteLine($"Nome: { entity.Nome }, CPF: { entity.Cpf } ");
+                Console.WriteLine($"O Código da Agência é: { entity.CodigoBanco }");
+                Console.WriteLine($"O Número da Agência é: { entity.Agencia } ");
+                Console.WriteLine($"O Número da Conta é: { entity.NumeroConta } ");
+                Console.WriteLine($"Saldo inicial é de: {entity.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))}");
+                Console.ReadKey();            
             }
             catch (Exception ex)
             {
