@@ -6,12 +6,6 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
     {
         public void Execucao()
         {
-            var contaCorrenteRepository = new ContaCorrenteRepository();
-            var contaInvestimentoRepository = new ContaInvestimentoRepository();
-
-            var contaCorrente = new ContaCorrente();
-            var contaInvestimento = new ContaInvestimento();
-
             try
             {
                 Console.Clear();
@@ -19,18 +13,30 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 Console.WriteLine();
 
                 Console.WriteLine("Escolha um tipo de serviço desejado: ");
+                Console.WriteLine("1 - Conta Corrente");
+                Console.WriteLine("2 - Conta Poupança");
+                Console.WriteLine("3 - Conta Investimento");
                 int tipoConta = int.Parse(Console.ReadLine());
 
                 switch (tipoConta)
                 {
-                    case 1: contaCorrenteRepository.Save(contaCorrente); break;
-                }
-                      
+                    case 1: EscolherOpcoesDaContaCorrente(); break;
+                    //case 1: contaCorrenteRepository.Save(contaCorrente); break;
+                }                   
             }
             catch(Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
+        }
+            
+        public void EscolherOpcoesDaContaCorrente()
+        {
+            var contaCorrenteRepository = new ContaCorrenteRepository();
+            var contaCorrente = new ContaCorrente();
+
+            Console.Clear();
+            Console.WriteLine("Banco dos Dev´s - Conta Corrente");
         }
     }
 }

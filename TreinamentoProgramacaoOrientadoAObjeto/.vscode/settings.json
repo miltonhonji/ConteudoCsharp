@@ -22,6 +22,6 @@
     "mocha.enabled": true,
     "omnisharp.autoStart": false,
     "omnisharp.projectLoadTimeout": 60,
-    "omnisharp.useModernNet": false,
+    "omnisharp.useModernNet": true,
     "omnisharp.enableMsBuildLoadProjectsOnDemand": false
 }

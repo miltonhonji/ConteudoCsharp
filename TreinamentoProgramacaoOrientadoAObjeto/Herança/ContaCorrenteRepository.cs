@@ -21,7 +21,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
             throw new NotImplementedException();
         }
 
-        public void Pix(string chave, double valor)
+        public void CadastrarPix(string chave, double valor)
         {
             throw new NotImplementedException();
         }
