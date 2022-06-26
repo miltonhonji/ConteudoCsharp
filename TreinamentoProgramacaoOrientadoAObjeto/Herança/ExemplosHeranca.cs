@@ -4,6 +4,13 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 {
     public class ExemplosHeranca
     {
+        #region Variáveis
+
+        int idCliente;
+        string chaveDoPix;
+        double valorDoPix;
+        #endregion Variáveis 
+
         public void Execucao()
         {
             try
@@ -51,6 +58,11 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
             switch (opcaoContaCorrente)
             {
                 case 1: contaCorrenteRepository.Save(contaCorrente); break;
+                case 2: contaCorrenteRepository.CadastrarPix(ChaveDoPix, valorDoPix); break;
+                case 3: contaCorrenteRepository.ObterExtratoConta();
+                case 4: contaCorrenteRepository.Update(idCliente);
+                case 5: contaCorrenteRepository.Delete(idCliente);
+                case 6: contaCorrenteRepository.Depositar(contaCorrente);
                 default: System.Environment.Exit(1); break;
             }
             
