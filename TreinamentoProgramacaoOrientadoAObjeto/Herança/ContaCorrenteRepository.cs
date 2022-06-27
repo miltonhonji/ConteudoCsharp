@@ -44,6 +44,9 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 Console.WriteLine("Insira o seu Cpf: ");
                 string cpf = Console.ReadLine();
 
+                Console.WriteLine("Escolha o tipo de conta que você deseja abrir: ");
+                int tipoConta = int.Parse(Console.ReadLine());
+
                 Console.WriteLine("Por fim, deseja depositar dinheiro na conta: ");
                 double saldo = double.Parse(Console.ReadLine());
 

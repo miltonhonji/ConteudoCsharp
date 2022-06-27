@@ -28,7 +28,8 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 switch (tipoConta)
                 {
                     case 1: EscolherOpcoesDaContaCorrente(); break;
-                    //case 1: contaCorrenteRepository.Save(contaCorrente); break;
+                    case 2: EscolherOpcoesContaPoupanca(); break;
+                    case 3: EscolherOpcoesContaInvestimento();break;
                 }                   
             }
             catch(Exception ex)
@@ -58,14 +59,27 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
             switch (opcaoContaCorrente)
             {
                 case 1: contaCorrenteRepository.Save(contaCorrente); break;
-                case 2: contaCorrenteRepository.CadastrarPix(ChaveDoPix, valorDoPix); break;
-                case 3: contaCorrenteRepository.ObterExtratoConta();
-                case 4: contaCorrenteRepository.Update(idCliente);
-                case 5: contaCorrenteRepository.Delete(idCliente);
-                case 6: contaCorrenteRepository.Depositar(contaCorrente);
+                case 2: contaCorrenteRepository.CadastrarPix(chaveDoPix, valorDoPix); break;
+                case 3: contaCorrenteRepository.ObterExtratoConta(); break;
+                case 4: contaCorrenteRepository.Update(idCliente); break;
+                case 5: contaCorrenteRepository.Delete(idCliente); break;
+                case 6: contaCorrenteRepository.Depositar(contaCorrente); break;
                 default: System.Environment.Exit(1); break;
             }
-            
+        }
+
+        public void EscolherOpcoesContaPoupanca()
+        {
+            Console.Clear();
+            Console.WriteLine("Banco dos Dev´s - Conta Poupança");
+            Console.ReadKey();
+        }
+
+        public void EscolherOpcoesContaInvestimento()
+        {
+            Console.Clear();
+            Console.WriteLine("Banco dos Dev´s - Conta Investimento");
+            Console.ReadKey();
         }
     }
 }
