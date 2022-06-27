@@ -12,11 +12,11 @@ namespace TreinamentoProgramacaoOrientadoAObjeto
     {
         static void Main(string[] args)
         {
-            //Menu();
+            Menu();
             //Exemplos Abstração
-            var abstracao = new Abstração.Abstracao();
+            //var abstracao = new Abstração.Abstracao();
 
-            abstracao.Execucao();
+            //abstracao.Execucao();
         }
 
         public static void Menu()
