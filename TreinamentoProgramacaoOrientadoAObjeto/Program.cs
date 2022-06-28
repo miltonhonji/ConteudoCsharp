@@ -13,10 +13,6 @@ namespace TreinamentoProgramacaoOrientadoAObjeto
         static void Main(string[] args)
         {
             Menu();
-            //Exemplos Abstração
-            //var abstracao = new Abstração.Abstracao();
-
-            //abstracao.Execucao();
         }
 
         public static void Menu()

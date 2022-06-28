@@ -29,11 +29,12 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
         public void Save(ContaCorrente entity)
         {
             try
-            {                
+            {               
                 entity.Agencia = 2206;
                 entity.NumeroConta = "180386-6";
                 entity.Banco = "Banco dos Devs";
                 entity.CodigoBanco = 17;
+                entity.TipoConta = ETipoConta.ContaCorrente;
 
                 Console.Clear();            
                 Console.WriteLine("--- Banco dos Dev's - Vamos abrir a sua conta? ---");
@@ -43,9 +44,6 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
             
                 Console.WriteLine("Insira o seu Cpf: ");
                 string cpf = Console.ReadLine();
-
-                Console.WriteLine("Escolha o tipo de conta que você deseja abrir: ");
-                int tipoConta = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Por fim, deseja depositar dinheiro na conta: ");
                 double saldo = double.Parse(Console.ReadLine());
@@ -58,6 +56,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 Console.WriteLine("Cadastro efetuado com sucesso!");
                 Console.WriteLine();
                 Console.WriteLine($"Nome: { entity.Nome }, CPF: { entity.Cpf } ");
+                Console.WriteLine($"Tipo de conta do clientedo: { entity.TipoConta }.");
                 Console.WriteLine($"O Código da Agência é: { entity.CodigoBanco }");
                 Console.WriteLine($"O Número da Agência é: { entity.Agencia } ");
                 Console.WriteLine($"O Número da Conta é: { entity.NumeroConta } ");
