@@ -42,7 +42,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto
                 case 0: new Objetos.ExemplosClassesEObjetos().Execucao(); break;
                 case 1: new Métodos.ExemplosMetodos().Execucao(); break;
                 case 2: new Herança.ExemplosHeranca().Execucao(); break;
-                case 3: new Abstracao().Execucao(); break;
+                case 3: new Abstração.ExemplosAbstracao().Execucao(); break;
                 case 4: new Encapsulamento.ExemplosEncapsulamento().Execucao(); break;
                 case 5: new Polimorfismo.ExemplosPolimorfismo().Execucao(); break;
                 case 6: new Métodos.ExemplosMetodosClienteProduto().Execucao(); break;

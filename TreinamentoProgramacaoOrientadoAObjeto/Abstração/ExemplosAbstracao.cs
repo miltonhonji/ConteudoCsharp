@@ -2,7 +2,7 @@ using System;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Abstração
 {
-    public class Abstracao
+    public class ExemplosAbstracao
     {
         public void Execucao()
         {
@@ -15,8 +15,8 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Abstração
             quadrado.CalcularArea();
             quadrado.CalcularPerimetro();
 
-            Console.WriteLine($"A área do quadrado é: { quadrado.Area } m2");
-            Console.WriteLine($"O perimetro do quadrado é: { quadrado.Perimetro } m");
+            Console.WriteLine($"A área do quadrado é: { quadrado.Area } m².");
+            Console.WriteLine($"O perimetro do quadrado é: { quadrado.Perimetro } m.");
             Console.ReadKey();
         }
 
