@@ -49,6 +49,5 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Abstração
                 Perimetro = 4 * Lado;
             }
         }
-
     }
 }
