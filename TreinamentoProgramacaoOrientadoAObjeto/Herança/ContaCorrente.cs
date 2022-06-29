@@ -37,4 +37,11 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
         ContaPoupanca = 2,
         ContaInvestimento = 3
     }
+
+    public enum EChavePix
+    {
+        CPF = 1,
+        Celular = 2,
+        Email = 3
+    }
 }

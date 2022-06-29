@@ -23,7 +23,23 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 
         public void CadastrarPix(string chave, double valor)
         {
-            throw new NotImplementedException();
+            var contaCorrente = new ContaCorrente();
+
+            try
+            {
+                Console.Clear();
+                Console.WriteLine("--- Banco dos Dev's - Cadastrar Chave Pix ---");
+                Console.WriteLine();
+                Console.WriteLine("Digite o número de seu CPF: ");
+                chave = Console.ReadLine();
+
+                contaCorrente.Cpf = chave;               
+                Console.WriteLine($"A sua chave Pix é: { contaCorrente.Cpf }.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         public void Save(ContaCorrente entity)
@@ -56,12 +72,14 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 Console.WriteLine("Cadastro efetuado com sucesso!");
                 Console.WriteLine();
                 Console.WriteLine($"Nome: { entity.Nome }, CPF: { entity.Cpf } ");
-                Console.WriteLine($"Tipo de conta do clientedo: { entity.TipoConta }.");
+                Console.WriteLine($"Tipo de conta do cliente: { entity.TipoConta }.");
                 Console.WriteLine($"O Código da Agência é: { entity.CodigoBanco }");
                 Console.WriteLine($"O Número da Agência é: { entity.Agencia } ");
                 Console.WriteLine($"O Número da Conta é: { entity.NumeroConta } ");
                 Console.WriteLine($"Saldo inicial é de: {entity.Saldo.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))}");
-                Console.ReadKey();            
+                Console.ReadKey(); 
+
+                //CadastrarPix(cpf, saldo); 
             }
             catch (Exception ex)
             {
