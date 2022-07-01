@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "c7Ax9AH+IP/QtBnjGvVijSEPr4K6m3d8W+NuXbI8gwdoP61TcBZaxwHgjLi5iXpSTQMvlWkoEg6J7CLOD3vfsg==",
+  "success": true,
+  "projectFilePath": "C:\\devMiltonCSharpGithub\\ExemploPolimorfismoConstrutor\\ExemploPolimorfismoConstrutor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\honji\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
