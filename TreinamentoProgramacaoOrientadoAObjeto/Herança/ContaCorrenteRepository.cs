@@ -13,7 +13,33 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 
         public void Depositar(ContaCorrente contaCorrente)
         {
-            throw new NotImplementedException();
+            var contaDestino = new ContaCorrente;
+
+            try
+            {
+                contaCorrente.Agencia = 2206;
+                contaCorrente.NumeroConta = "180386-6";
+                contaCorrente.Banco = "Banco dos Devs";
+                contaCorrente.CodigoBanco = 17;
+                contaCorrente.TipoCOnta = ETipoConta.ContaCorrente;
+
+                Console.Clear();
+                Console.WriteLine("Insira o valor que você deseja depositar: ");
+                double saldo = double.Parse(Console.ReadLine());
+
+                Console.Clear();
+                Console.WriteLine("Agora você insira o número da agência de destino: ");
+                contaDestino.Agencia = int.Parse(Console.ReadLine());
+
+                contaDestino.Nome = "Juliana Ayumi Oshiro Akamine";
+                contaDestino.Banco = "Banco dos Adms";
+                Console.Clear();
+                Console.Wr
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         public List<ContaCorrente> ObterExtratoConta()
@@ -34,7 +60,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 chave = Console.ReadLine();
 
                 contaCorrente.Cpf = chave;               
-                Console.WriteLine($"A sua chave Pix é: { contaCorrente.Cpf }.");
+                Console.WriteLine($"A sua chave Pix é: { contaCorrente.Cpf } ");
             }
             catch (Exception ex)
             {
