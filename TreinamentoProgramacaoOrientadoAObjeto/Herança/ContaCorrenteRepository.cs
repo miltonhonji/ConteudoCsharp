@@ -13,28 +13,71 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
 
         public void Depositar(ContaCorrente contaCorrente)
         {
-            var contaDestino = new ContaCorrente;
+            var contaDestino = new ContaCorrente();
 
             try
             {
                 contaCorrente.Agencia = 2206;
                 contaCorrente.NumeroConta = "180386-6";
                 contaCorrente.Banco = "Banco dos Devs";
-                contaCorrente.CodigoBanco = 17;
-                contaCorrente.TipoCOnta = ETipoConta.ContaCorrente;
+                contaCorrente.CodigoBanco = 36;
+                contaCorrente.TipoConta = ETipoConta.ContaCorrente;
+                contaCorrente.Saldo = 12000f;
 
                 Console.Clear();
                 Console.WriteLine("Insira o valor que você deseja depositar: ");
-                double saldo = double.Parse(Console.ReadLine());
+                double valorDigitado = double.Parse(Console.ReadLine());
 
-                Console.Clear();
+                if(contaCorrente.Saldo < valorDigitado)
+                {
+                    Console.WriteLine("Saldo indisponível, tente novamente.");
+                }
+                else
+                {
+                    //valorDigitado -= contaCorrente.Saldo;
+                    Console.Clear();
+                    Console.WriteLine($"Você Deseja Depositar este valor de { valorDigitado.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))} ? ");
+                    Console.WriteLine();
+                    Console.WriteLine("S - Sim");
+                    Console.WriteLine("N - Não");
+                    string opcaoDeposito = Console.ReadLine();   
+                }
+
+                /*Console.Clear();
+                Console.WriteLine($"Você Deseja Depositar este valor de { valorDigitado.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))} ? ");
+                Console.WriteLine();
+                Console.WriteLine("S - Sim");
+                Console.WriteLine("N - Não");
+                string opcaoDeposito = Console.ReadLine();
+
+                if(opcaoDeposito.Equals("S"))
+                {
+                    Console.Clear();
+                    Console.WriteLine("Agora você insira o número da agência de destino: ");
+                    contaDestino.Agencia = int.Parse(Console.ReadLine());
+                }
+                else if(opcaoDeposito.Equals("N"))
+                {
+                    Console.Clear();
+                    Console.WriteLine("Não foi possível realizar esta operação.");
+                }*/
+
+                /*Console.Clear();
                 Console.WriteLine("Agora você insira o número da agência de destino: ");
                 contaDestino.Agencia = int.Parse(Console.ReadLine());
 
-                contaDestino.Nome = "Juliana Ayumi Oshiro Akamine";
+                contaDestino.Nome = "Juliana A. Oshiro Akamine";
                 contaDestino.Banco = "Banco dos Adms";
+                contaDestino.NumeroConta = "110786-2";
+                contaDestino.CodigoBanco = 35;
+                contaCorrente.TipoConta = ETipoConta.ContaCorrente;
+
                 Console.Clear();
-                Console.Wr
+                Console.WriteLine($"Nome do Favorecido: { contaDestino.Nome }");
+                Console.WriteLine($"Nome do Banco: { contaDestino.Banco }");
+                Console.WriteLine($"Código Agência: { contaDestino.Agencia }");
+                Console.WriteLine($"Número da Conta: { contaDestino.NumeroConta }");
+                Console.WriteLine($"Se o código for { contaDestino.CodigoBanco }");*/            
             }
             catch (Exception ex)
             {
