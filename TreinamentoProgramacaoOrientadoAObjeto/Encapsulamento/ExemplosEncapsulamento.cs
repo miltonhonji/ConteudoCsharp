@@ -15,5 +15,14 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Encapsulamento
             Console.WriteLine($"Cliente: { conta.ObtemCliente() }");
             Console.ReadLine();
         }
+
+        public void ObterSmartphone()
+        {
+            var smartphone = new Smartphone();
+            smartphone.Ligar();
+            smartphone.Desligar();
+            smartphone.Testar();
+            smartphone.ObterSmartphone();
+        }
     }
 }
