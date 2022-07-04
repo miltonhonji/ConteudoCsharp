@@ -40,50 +40,39 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                     Console.WriteLine();
                     Console.WriteLine("S - Sim");
                     Console.WriteLine("N - Não");
-                    string opcaoDeposito = Console.ReadLine();   
-                }
+                    string opcaoDeposito = Console.ReadLine();
+                    
+                    if(opcaoDeposito.ToUpper().Equals("S"))
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Agora você insira o número da agência de destino: ");
+                        contaDestino.Agencia = int.Parse(Console.ReadLine());
+                        
+                        contaDestino.Nome = "J A ";
+                        contaDestino.Banco = "Banco dos Adms";
+                        contaDestino.NumeroConta = "110786-2";
+                        contaDestino.CodigoBanco = 35;
+                        contaCorrente.TipoConta = ETipoConta.ContaCorrente;
 
-                /*Console.Clear();
-                Console.WriteLine($"Você Deseja Depositar este valor de { valorDigitado.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))} ? ");
-                Console.WriteLine();
-                Console.WriteLine("S - Sim");
-                Console.WriteLine("N - Não");
-                string opcaoDeposito = Console.ReadLine();
-
-                if(opcaoDeposito.Equals("S"))
-                {
-                    Console.Clear();
-                    Console.WriteLine("Agora você insira o número da agência de destino: ");
-                    contaDestino.Agencia = int.Parse(Console.ReadLine());
-                }
-                else if(opcaoDeposito.Equals("N"))
-                {
-                    Console.Clear();
-                    Console.WriteLine("Não foi possível realizar esta operação.");
-                }*/
-
-                /*Console.Clear();
-                Console.WriteLine("Agora você insira o número da agência de destino: ");
-                contaDestino.Agencia = int.Parse(Console.ReadLine());
-
-                contaDestino.Nome = "Juliana A. Oshiro Akamine";
-                contaDestino.Banco = "Banco dos Adms";
-                contaDestino.NumeroConta = "110786-2";
-                contaDestino.CodigoBanco = 35;
-                contaCorrente.TipoConta = ETipoConta.ContaCorrente;
-
-                Console.Clear();
-                Console.WriteLine($"Nome do Favorecido: { contaDestino.Nome }");
-                Console.WriteLine($"Nome do Banco: { contaDestino.Banco }");
-                Console.WriteLine($"Código Agência: { contaDestino.Agencia }");
-                Console.WriteLine($"Número da Conta: { contaDestino.NumeroConta }");
-                Console.WriteLine($"Se o código for { contaDestino.CodigoBanco }");*/            
+                        Console.Clear();
+                        Console.WriteLine($"Nome do Favorecido: { contaDestino.Nome }");
+                        Console.WriteLine($"Nome do Banco: { contaDestino.Banco }");
+                        Console.WriteLine($"Código Agência: { contaDestino.Agencia }");
+                        Console.WriteLine($"Número da Conta: { contaDestino.NumeroConta }");
+                        Console.WriteLine($"Se o código for { contaDestino.CodigoBanco }");
+                    }
+                    else if(opcaoDeposito.ToUpper().Equals("N"))
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Não foi possível realizar esta operação.");
+                    }
+                }           
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
-        }
+        }        
 
         public List<ContaCorrente> ObterExtratoConta()
         {
