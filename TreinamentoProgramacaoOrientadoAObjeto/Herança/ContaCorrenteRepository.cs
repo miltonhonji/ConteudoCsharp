@@ -34,7 +34,6 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                 }
                 else
                 {
-                    //valorDigitado -= contaCorrente.Saldo;
                     Console.Clear();
                     Console.WriteLine($"Você Deseja Depositar este valor de { valorDigitado.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))} ? ");
                     Console.WriteLine();
@@ -60,6 +59,19 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
                         Console.WriteLine($"Código Agência: { contaDestino.Agencia }");
                         Console.WriteLine($"Número da Conta: { contaDestino.NumeroConta }");
                         Console.WriteLine($"Se o código for { contaDestino.CodigoBanco }");
+    
+                        Console.WriteLine();
+                        Console.WriteLine("Deseja fazer este depósito? ");
+                        Console.WriteLine("S - Sim");
+                        Console.WriteLine("N - Não");
+                        var confirmacaoDeposito = Console.ReadLine();
+
+                        switch (confirmacaoDeposito)
+                        {
+                            case "S": Console.WriteLine("Você avançou"); break;
+                            case "N": Console.WriteLine("Não foi possível concluir o depósito."); break;
+                        }
+                        
                     }
                     else if(opcaoDeposito.ToUpper().Equals("N"))
                     {
@@ -72,7 +84,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Herança
             {
                 Console.WriteLine(ex.Message);
             }
-        }        
+        }
 
         public List<ContaCorrente> ObterExtratoConta()
         {

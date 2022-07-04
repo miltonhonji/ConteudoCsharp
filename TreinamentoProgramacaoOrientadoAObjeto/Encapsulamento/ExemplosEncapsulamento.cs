@@ -8,7 +8,12 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Encapsulamento
         public void Execucao()
         {
             Console.Clear();
-            Console.WriteLine("Aqui você aprenderá encapsulamento");
+            Conta conta = new Conta("Milton Honji");
+            conta.Depositar(200);
+            conta.Sacar(50);
+            Console.WriteLine($"Valor: { conta.ObtemValor() }");
+            Console.WriteLine($"Cliente: { conta.ObtemCliente() }");
+            Console.ReadLine();
         }
     }
 }
