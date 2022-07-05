@@ -1,0 +1,15 @@
+C:\devBalta\MyApp\bin\Debug\net6.0\MyApp.exe
+C:\devBalta\MyApp\bin\Debug\net6.0\MyApp.deps.json
+C:\devBalta\MyApp\bin\Debug\net6.0\MyApp.runtimeconfig.json
+C:\devBalta\MyApp\bin\Debug\net6.0\MyApp.dll
+C:\devBalta\MyApp\bin\Debug\net6.0\MyApp.pdb
+C:\devBalta\MyApp\obj\Debug\net6.0\MyApp.csproj.AssemblyReference.cache
+C:\devBalta\MyApp\obj\Debug\net6.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\devBalta\MyApp\obj\Debug\net6.0\MyApp.AssemblyInfoInputs.cache
+C:\devBalta\MyApp\obj\Debug\net6.0\MyApp.AssemblyInfo.cs
+C:\devBalta\MyApp\obj\Debug\net6.0\MyApp.csproj.CoreCompileInputs.cache
+C:\devBalta\MyApp\obj\Debug\net6.0\MyApp.dll
+C:\devBalta\MyApp\obj\Debug\net6.0\refint\MyApp.dll
+C:\devBalta\MyApp\obj\Debug\net6.0\MyApp.pdb
+C:\devBalta\MyApp\obj\Debug\net6.0\MyApp.genruntimeconfig.cache
+C:\devBalta\MyApp\obj\Debug\net6.0\ref\MyApp.dll

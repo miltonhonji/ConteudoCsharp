@@ -1,0 +1,15 @@
+C:\devBalta\AulaGuid\bin\Debug\net6.0\AulaGuid.exe
+C:\devBalta\AulaGuid\bin\Debug\net6.0\AulaGuid.deps.json
+C:\devBalta\AulaGuid\bin\Debug\net6.0\AulaGuid.runtimeconfig.json
+C:\devBalta\AulaGuid\bin\Debug\net6.0\AulaGuid.dll
+C:\devBalta\AulaGuid\bin\Debug\net6.0\AulaGuid.pdb
+C:\devBalta\AulaGuid\obj\Debug\net6.0\AulaGuid.csproj.AssemblyReference.cache
+C:\devBalta\AulaGuid\obj\Debug\net6.0\AulaGuid.GeneratedMSBuildEditorConfig.editorconfig
+C:\devBalta\AulaGuid\obj\Debug\net6.0\AulaGuid.AssemblyInfoInputs.cache
+C:\devBalta\AulaGuid\obj\Debug\net6.0\AulaGuid.AssemblyInfo.cs
+C:\devBalta\AulaGuid\obj\Debug\net6.0\AulaGuid.csproj.CoreCompileInputs.cache
+C:\devBalta\AulaGuid\obj\Debug\net6.0\AulaGuid.dll
+C:\devBalta\AulaGuid\obj\Debug\net6.0\refint\AulaGuid.dll
+C:\devBalta\AulaGuid\obj\Debug\net6.0\AulaGuid.pdb
+C:\devBalta\AulaGuid\obj\Debug\net6.0\AulaGuid.genruntimeconfig.cache
+C:\devBalta\AulaGuid\obj\Debug\net6.0\ref\AulaGuid.dll

@@ -1,0 +1,15 @@
+C:\devBalta\CalculadoraDoMiltao\bin\Debug\net6.0\CalculadoraDoMiltao.exe
+C:\devBalta\CalculadoraDoMiltao\bin\Debug\net6.0\CalculadoraDoMiltao.deps.json
+C:\devBalta\CalculadoraDoMiltao\bin\Debug\net6.0\CalculadoraDoMiltao.runtimeconfig.json
+C:\devBalta\CalculadoraDoMiltao\bin\Debug\net6.0\CalculadoraDoMiltao.dll
+C:\devBalta\CalculadoraDoMiltao\bin\Debug\net6.0\CalculadoraDoMiltao.pdb
+C:\devBalta\CalculadoraDoMiltao\obj\Debug\net6.0\CalculadoraDoMiltao.csproj.AssemblyReference.cache
+C:\devBalta\CalculadoraDoMiltao\obj\Debug\net6.0\CalculadoraDoMiltao.GeneratedMSBuildEditorConfig.editorconfig
+C:\devBalta\CalculadoraDoMiltao\obj\Debug\net6.0\CalculadoraDoMiltao.AssemblyInfoInputs.cache
+C:\devBalta\CalculadoraDoMiltao\obj\Debug\net6.0\CalculadoraDoMiltao.AssemblyInfo.cs
+C:\devBalta\CalculadoraDoMiltao\obj\Debug\net6.0\CalculadoraDoMiltao.csproj.CoreCompileInputs.cache
+C:\devBalta\CalculadoraDoMiltao\obj\Debug\net6.0\CalculadoraDoMiltao.dll
+C:\devBalta\CalculadoraDoMiltao\obj\Debug\net6.0\refint\CalculadoraDoMiltao.dll
+C:\devBalta\CalculadoraDoMiltao\obj\Debug\net6.0\CalculadoraDoMiltao.pdb
+C:\devBalta\CalculadoraDoMiltao\obj\Debug\net6.0\CalculadoraDoMiltao.genruntimeconfig.cache
+C:\devBalta\CalculadoraDoMiltao\obj\Debug\net6.0\ref\CalculadoraDoMiltao.dll

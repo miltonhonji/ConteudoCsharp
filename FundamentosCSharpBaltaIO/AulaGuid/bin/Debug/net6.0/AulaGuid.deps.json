@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AulaGuid/1.0.0": {
+        "runtime": {
+          "AulaGuid.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AulaGuid/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

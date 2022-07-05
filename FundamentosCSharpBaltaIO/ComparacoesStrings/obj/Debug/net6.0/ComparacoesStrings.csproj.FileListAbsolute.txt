@@ -1,0 +1,15 @@
+C:\devBalta\ComparacoesStrings\bin\Debug\net6.0\ComparacoesStrings.exe
+C:\devBalta\ComparacoesStrings\bin\Debug\net6.0\ComparacoesStrings.deps.json
+C:\devBalta\ComparacoesStrings\bin\Debug\net6.0\ComparacoesStrings.runtimeconfig.json
+C:\devBalta\ComparacoesStrings\bin\Debug\net6.0\ComparacoesStrings.dll
+C:\devBalta\ComparacoesStrings\bin\Debug\net6.0\ComparacoesStrings.pdb
+C:\devBalta\ComparacoesStrings\obj\Debug\net6.0\ComparacoesStrings.csproj.AssemblyReference.cache
+C:\devBalta\ComparacoesStrings\obj\Debug\net6.0\ComparacoesStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\devBalta\ComparacoesStrings\obj\Debug\net6.0\ComparacoesStrings.AssemblyInfoInputs.cache
+C:\devBalta\ComparacoesStrings\obj\Debug\net6.0\ComparacoesStrings.AssemblyInfo.cs
+C:\devBalta\ComparacoesStrings\obj\Debug\net6.0\ComparacoesStrings.csproj.CoreCompileInputs.cache
+C:\devBalta\ComparacoesStrings\obj\Debug\net6.0\ComparacoesStrings.dll
+C:\devBalta\ComparacoesStrings\obj\Debug\net6.0\refint\ComparacoesStrings.dll
+C:\devBalta\ComparacoesStrings\obj\Debug\net6.0\ComparacoesStrings.pdb
+C:\devBalta\ComparacoesStrings\obj\Debug\net6.0\ComparacoesStrings.genruntimeconfig.cache
+C:\devBalta\ComparacoesStrings\obj\Debug\net6.0\ref\ComparacoesStrings.dll

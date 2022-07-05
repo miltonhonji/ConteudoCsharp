@@ -1,0 +1,15 @@
+C:\devBalta\StopWatchDoMilton\bin\Debug\net6.0\StopWatchDoMilton.exe
+C:\devBalta\StopWatchDoMilton\bin\Debug\net6.0\StopWatchDoMilton.deps.json
+C:\devBalta\StopWatchDoMilton\bin\Debug\net6.0\StopWatchDoMilton.runtimeconfig.json
+C:\devBalta\StopWatchDoMilton\bin\Debug\net6.0\StopWatchDoMilton.dll
+C:\devBalta\StopWatchDoMilton\bin\Debug\net6.0\StopWatchDoMilton.pdb
+C:\devBalta\StopWatchDoMilton\obj\Debug\net6.0\StopWatchDoMilton.csproj.AssemblyReference.cache
+C:\devBalta\StopWatchDoMilton\obj\Debug\net6.0\StopWatchDoMilton.GeneratedMSBuildEditorConfig.editorconfig
+C:\devBalta\StopWatchDoMilton\obj\Debug\net6.0\StopWatchDoMilton.AssemblyInfoInputs.cache
+C:\devBalta\StopWatchDoMilton\obj\Debug\net6.0\StopWatchDoMilton.AssemblyInfo.cs
+C:\devBalta\StopWatchDoMilton\obj\Debug\net6.0\StopWatchDoMilton.csproj.CoreCompileInputs.cache
+C:\devBalta\StopWatchDoMilton\obj\Debug\net6.0\StopWatchDoMilton.dll
+C:\devBalta\StopWatchDoMilton\obj\Debug\net6.0\refint\StopWatchDoMilton.dll
+C:\devBalta\StopWatchDoMilton\obj\Debug\net6.0\StopWatchDoMilton.pdb
+C:\devBalta\StopWatchDoMilton\obj\Debug\net6.0\StopWatchDoMilton.genruntimeconfig.cache
+C:\devBalta\StopWatchDoMilton\obj\Debug\net6.0\ref\StopWatchDoMilton.dll

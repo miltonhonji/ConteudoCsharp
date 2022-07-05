@@ -1,0 +1,15 @@
+C:\devBalta\InterpolacaoString\bin\Debug\net6.0\InterpolacaoString.exe
+C:\devBalta\InterpolacaoString\bin\Debug\net6.0\InterpolacaoString.deps.json
+C:\devBalta\InterpolacaoString\bin\Debug\net6.0\InterpolacaoString.runtimeconfig.json
+C:\devBalta\InterpolacaoString\bin\Debug\net6.0\InterpolacaoString.dll
+C:\devBalta\InterpolacaoString\bin\Debug\net6.0\InterpolacaoString.pdb
+C:\devBalta\InterpolacaoString\obj\Debug\net6.0\InterpolacaoString.csproj.AssemblyReference.cache
+C:\devBalta\InterpolacaoString\obj\Debug\net6.0\InterpolacaoString.GeneratedMSBuildEditorConfig.editorconfig
+C:\devBalta\InterpolacaoString\obj\Debug\net6.0\InterpolacaoString.AssemblyInfoInputs.cache
+C:\devBalta\InterpolacaoString\obj\Debug\net6.0\InterpolacaoString.AssemblyInfo.cs
+C:\devBalta\InterpolacaoString\obj\Debug\net6.0\InterpolacaoString.csproj.CoreCompileInputs.cache
+C:\devBalta\InterpolacaoString\obj\Debug\net6.0\InterpolacaoString.dll
+C:\devBalta\InterpolacaoString\obj\Debug\net6.0\refint\InterpolacaoString.dll
+C:\devBalta\InterpolacaoString\obj\Debug\net6.0\InterpolacaoString.pdb
+C:\devBalta\InterpolacaoString\obj\Debug\net6.0\InterpolacaoString.genruntimeconfig.cache
+C:\devBalta\InterpolacaoString\obj\Debug\net6.0\ref\InterpolacaoString.dll

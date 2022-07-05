@@ -1,0 +1,15 @@
+C:\devBalta\AppDoMilton\bin\Debug\net6.0\AppDoMilton.exe
+C:\devBalta\AppDoMilton\bin\Debug\net6.0\AppDoMilton.deps.json
+C:\devBalta\AppDoMilton\bin\Debug\net6.0\AppDoMilton.runtimeconfig.json
+C:\devBalta\AppDoMilton\bin\Debug\net6.0\AppDoMilton.dll
+C:\devBalta\AppDoMilton\bin\Debug\net6.0\AppDoMilton.pdb
+C:\devBalta\AppDoMilton\obj\Debug\net6.0\AppDoMilton.csproj.AssemblyReference.cache
+C:\devBalta\AppDoMilton\obj\Debug\net6.0\AppDoMilton.GeneratedMSBuildEditorConfig.editorconfig
+C:\devBalta\AppDoMilton\obj\Debug\net6.0\AppDoMilton.AssemblyInfoInputs.cache
+C:\devBalta\AppDoMilton\obj\Debug\net6.0\AppDoMilton.AssemblyInfo.cs
+C:\devBalta\AppDoMilton\obj\Debug\net6.0\AppDoMilton.csproj.CoreCompileInputs.cache
+C:\devBalta\AppDoMilton\obj\Debug\net6.0\AppDoMilton.dll
+C:\devBalta\AppDoMilton\obj\Debug\net6.0\refint\AppDoMilton.dll
+C:\devBalta\AppDoMilton\obj\Debug\net6.0\AppDoMilton.pdb
+C:\devBalta\AppDoMilton\obj\Debug\net6.0\AppDoMilton.genruntimeconfig.cache
+C:\devBalta\AppDoMilton\obj\Debug\net6.0\ref\AppDoMilton.dll

@@ -1,0 +1,15 @@
+C:\devBalta\StopWatchDoMiltaoReverso\bin\Debug\net6.0\StopWatchDoMiltaoReverso.exe
+C:\devBalta\StopWatchDoMiltaoReverso\bin\Debug\net6.0\StopWatchDoMiltaoReverso.deps.json
+C:\devBalta\StopWatchDoMiltaoReverso\bin\Debug\net6.0\StopWatchDoMiltaoReverso.runtimeconfig.json
+C:\devBalta\StopWatchDoMiltaoReverso\bin\Debug\net6.0\StopWatchDoMiltaoReverso.dll
+C:\devBalta\StopWatchDoMiltaoReverso\bin\Debug\net6.0\StopWatchDoMiltaoReverso.pdb
+C:\devBalta\StopWatchDoMiltaoReverso\obj\Debug\net6.0\StopWatchDoMiltaoReverso.csproj.AssemblyReference.cache
+C:\devBalta\StopWatchDoMiltaoReverso\obj\Debug\net6.0\StopWatchDoMiltaoReverso.GeneratedMSBuildEditorConfig.editorconfig
+C:\devBalta\StopWatchDoMiltaoReverso\obj\Debug\net6.0\StopWatchDoMiltaoReverso.AssemblyInfoInputs.cache
+C:\devBalta\StopWatchDoMiltaoReverso\obj\Debug\net6.0\StopWatchDoMiltaoReverso.AssemblyInfo.cs
+C:\devBalta\StopWatchDoMiltaoReverso\obj\Debug\net6.0\StopWatchDoMiltaoReverso.csproj.CoreCompileInputs.cache
+C:\devBalta\StopWatchDoMiltaoReverso\obj\Debug\net6.0\StopWatchDoMiltaoReverso.dll
+C:\devBalta\StopWatchDoMiltaoReverso\obj\Debug\net6.0\refint\StopWatchDoMiltaoReverso.dll
+C:\devBalta\StopWatchDoMiltaoReverso\obj\Debug\net6.0\StopWatchDoMiltaoReverso.pdb
+C:\devBalta\StopWatchDoMiltaoReverso\obj\Debug\net6.0\StopWatchDoMiltaoReverso.genruntimeconfig.cache
+C:\devBalta\StopWatchDoMiltaoReverso\obj\Debug\net6.0\ref\StopWatchDoMiltaoReverso.dll

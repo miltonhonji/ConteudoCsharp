@@ -1,0 +1,15 @@
+C:\devBalta\WorkingWithDates\bin\Debug\net6.0\WorkingWithDates.exe
+C:\devBalta\WorkingWithDates\bin\Debug\net6.0\WorkingWithDates.deps.json
+C:\devBalta\WorkingWithDates\bin\Debug\net6.0\WorkingWithDates.runtimeconfig.json
+C:\devBalta\WorkingWithDates\bin\Debug\net6.0\WorkingWithDates.dll
+C:\devBalta\WorkingWithDates\bin\Debug\net6.0\WorkingWithDates.pdb
+C:\devBalta\WorkingWithDates\obj\Debug\net6.0\WorkingWithDates.csproj.AssemblyReference.cache
+C:\devBalta\WorkingWithDates\obj\Debug\net6.0\WorkingWithDates.GeneratedMSBuildEditorConfig.editorconfig
+C:\devBalta\WorkingWithDates\obj\Debug\net6.0\WorkingWithDates.AssemblyInfoInputs.cache
+C:\devBalta\WorkingWithDates\obj\Debug\net6.0\WorkingWithDates.AssemblyInfo.cs
+C:\devBalta\WorkingWithDates\obj\Debug\net6.0\WorkingWithDates.csproj.CoreCompileInputs.cache
+C:\devBalta\WorkingWithDates\obj\Debug\net6.0\WorkingWithDates.dll
+C:\devBalta\WorkingWithDates\obj\Debug\net6.0\refint\WorkingWithDates.dll
+C:\devBalta\WorkingWithDates\obj\Debug\net6.0\WorkingWithDates.pdb
+C:\devBalta\WorkingWithDates\obj\Debug\net6.0\WorkingWithDates.genruntimeconfig.cache
+C:\devBalta\WorkingWithDates\obj\Debug\net6.0\ref\WorkingWithDates.dll

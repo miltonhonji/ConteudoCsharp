@@ -1,0 +1,15 @@
+C:\devBalta\DotnetLists\obj\Debug\net6.0\DotnetLists.csproj.AssemblyReference.cache
+C:\devBalta\DotnetLists\obj\Debug\net6.0\DotnetLists.GeneratedMSBuildEditorConfig.editorconfig
+C:\devBalta\DotnetLists\obj\Debug\net6.0\DotnetLists.AssemblyInfoInputs.cache
+C:\devBalta\DotnetLists\obj\Debug\net6.0\DotnetLists.AssemblyInfo.cs
+C:\devBalta\DotnetLists\obj\Debug\net6.0\DotnetLists.csproj.CoreCompileInputs.cache
+C:\devBalta\DotnetLists\bin\Debug\net6.0\DotnetLists.exe
+C:\devBalta\DotnetLists\bin\Debug\net6.0\DotnetLists.deps.json
+C:\devBalta\DotnetLists\bin\Debug\net6.0\DotnetLists.runtimeconfig.json
+C:\devBalta\DotnetLists\bin\Debug\net6.0\DotnetLists.dll
+C:\devBalta\DotnetLists\bin\Debug\net6.0\DotnetLists.pdb
+C:\devBalta\DotnetLists\obj\Debug\net6.0\DotnetLists.dll
+C:\devBalta\DotnetLists\obj\Debug\net6.0\refint\DotnetLists.dll
+C:\devBalta\DotnetLists\obj\Debug\net6.0\DotnetLists.pdb
+C:\devBalta\DotnetLists\obj\Debug\net6.0\DotnetLists.genruntimeconfig.cache
+C:\devBalta\DotnetLists\obj\Debug\net6.0\ref\DotnetLists.dll
