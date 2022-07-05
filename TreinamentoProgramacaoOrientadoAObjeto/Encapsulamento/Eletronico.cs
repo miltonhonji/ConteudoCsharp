@@ -2,13 +2,13 @@ using System;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Encapsulamento
 {
-    public class Eletronico
+    public abstract class Eletronico
     {
         private readonly string _nome;
         private readonly string _marca;
         private readonly string _tipo;
 
-        public string algumaCoisa { get; set; }
+        private string algumaCoisa { get; set; }
         
         public Eletronico(string nome, string marca, string tipo)
         {

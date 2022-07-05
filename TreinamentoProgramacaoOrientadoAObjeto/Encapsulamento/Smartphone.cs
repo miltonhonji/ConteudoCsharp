@@ -4,6 +4,15 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Encapsulamento
 {
     public class Smartphone : Eletronico
     {
+        public Smartphone(string nome, string marca, string tipo) : base(nome, marca, tipo)
+        {
+        }
+
+        public Smartphone() : base("GALAXY", "Samsung", "celular")
+        {
+
+        }
+
         private static void ObterModeloAndroid(){}
 
         private static void ObterModeloIOS(){}
@@ -18,10 +27,26 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Encapsulamento
             throw new NotImplementedException();
         }
         
-        pubblic void ObterSmartphone()
+        public void ObterSmartphone()
         {
             ObterModeloAndroid();
             ObterModeloIOS();
+        }
+
+        public class EncapsulandoDados
+        {
+            private int Login { get; set; }
+            public string Nome {  get; set; }
+            public decimal Senha { get;  private set;}
+
+        }
+    
+        public class TestandoEncapsulamento
+        {
+            EncapsulandoDados dados = new EncapsulandoDados()
+            {
+                Nome = "Mil"
+            };
         }
     }
 }

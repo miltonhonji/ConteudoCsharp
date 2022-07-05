@@ -14,7 +14,7 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Encapsulamento
 
         public void Sacar(double valor)
         {
-            _valor = _valor + valor;
+            _valor = _valor - valor;
         }
 
         public void Depositar(double valor)
