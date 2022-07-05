@@ -32,21 +32,5 @@ namespace TreinamentoProgramacaoOrientadoAObjeto.Encapsulamento
             ObterModeloAndroid();
             ObterModeloIOS();
         }
-
-        public class EncapsulandoDados
-        {
-            private int Login { get; set; }
-            public string Nome {  get; set; }
-            public decimal Senha { get;  private set;}
-
-        }
-    
-        public class TestandoEncapsulamento
-        {
-            EncapsulandoDados dados = new EncapsulandoDados()
-            {
-                Nome = "Mil"
-            };
-        }
     }
 }

@@ -1,5 +1,4 @@
 using System;
-using TreinamentoProgramacaoOrientadoAObjeto.Classe;
 
 namespace TreinamentoProgramacaoOrientadoAObjeto.Encapsulamento
 {
